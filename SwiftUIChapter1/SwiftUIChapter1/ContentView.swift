@@ -11,7 +11,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("ハローワールド")
+            HStack {
+                Text("ハローワールド")
+                Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
+            }
             Text("Placeholder")
             Text("Placeholder2")
         }
