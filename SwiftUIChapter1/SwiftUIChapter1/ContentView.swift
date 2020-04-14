@@ -17,6 +17,7 @@ struct ContentView: View {
             }
             HStack {
                 Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
+                Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
             }
         }
     }
