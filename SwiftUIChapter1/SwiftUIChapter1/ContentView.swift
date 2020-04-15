@@ -21,6 +21,7 @@ struct ContentView: View {
                 .lineLimit(nil)
                 .frame(width: 300.0)
                 .border(Color.green, width: 5)
+                .font(.system(size: 150))
         }
     }
 }
