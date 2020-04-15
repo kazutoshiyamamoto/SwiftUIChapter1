@@ -13,6 +13,7 @@ struct ContentView: View {
         VStack {
             Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
                 .font(.title)
+                .fontWeight(.thin)
             Text("プレースホルダー")
         }
     }
