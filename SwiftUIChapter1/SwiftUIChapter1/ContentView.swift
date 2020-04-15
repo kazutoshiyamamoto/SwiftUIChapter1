@@ -14,6 +14,7 @@ struct ContentView: View {
             Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
                 .font(.title)
                 .fontWeight(.thin)
+                .foregroundColor(Color.red)
             Text("プレースホルダー")
         }
     }
