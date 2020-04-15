@@ -16,8 +16,10 @@ struct ContentView: View {
                 .fontWeight(.thin)
                 .foregroundColor(Color.red)
             Text("テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト")
-                .lineLimit(2)
-                .frame(width: 200.0)
+                .font(.largeTitle)
+                .multilineTextAlignment(.trailing)
+                .lineLimit(nil)
+                .frame(width: 300.0)
         }
     }
 }
