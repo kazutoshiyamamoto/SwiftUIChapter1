@@ -11,14 +11,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            HStack {
-                Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
-                Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
-            }
-            HStack {
-                Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
-                Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
-            }
+            Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
+                .font(.title)
+            Text("プレースホルダー")
         }
     }
 }
