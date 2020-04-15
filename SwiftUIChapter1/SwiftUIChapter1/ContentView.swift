@@ -16,6 +16,7 @@ struct ContentView: View {
                 .fontWeight(.thin)
                 .foregroundColor(Color.red)
             Text("テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト")
+                .lineLimit(2)
                 .frame(width: 200.0)
         }
     }
