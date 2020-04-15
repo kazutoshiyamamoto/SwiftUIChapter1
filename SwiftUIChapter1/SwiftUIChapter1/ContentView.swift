@@ -20,6 +20,7 @@ struct ContentView: View {
                 .multilineTextAlignment(.trailing)
                 .lineLimit(nil)
                 .frame(width: 300.0)
+                .border(Color.green, width: 5)
         }
     }
 }
