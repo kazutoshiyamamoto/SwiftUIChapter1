@@ -15,13 +15,10 @@ struct ContentView: View {
                 .font(.title)
                 .fontWeight(.thin)
                 .foregroundColor(Color.red)
-            Text("テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト")
-                .font(.largeTitle)
+            Text("テストテストテストテスト\nテストテストテストテスト\nテストテストテストテストテスト")
                 .multilineTextAlignment(.trailing)
-                .lineLimit(nil)
-                .frame(width: 300.0)
+                .frame(width: 300.0, height: 200.0, alignment: .bottomTrailing)
                 .border(Color.green, width: 5)
-                .font(.system(size: 150))
         }
     }
 }
