@@ -20,6 +20,7 @@ struct ContentView: View {
                 .frame(width: 300.0, height: 200.0, alignment: .bottomTrailing)
                 .border(Color.green, width: 5)
         }
+        .foregroundColor(Color.blue)
     }
 }
 
