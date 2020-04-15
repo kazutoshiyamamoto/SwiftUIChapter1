@@ -15,7 +15,8 @@ struct ContentView: View {
                 .font(.title)
                 .fontWeight(.thin)
                 .foregroundColor(Color.red)
-            Text("プレースホルダー")
+            Text("テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト")
+                .frame(width: 200.0)
         }
     }
 }
