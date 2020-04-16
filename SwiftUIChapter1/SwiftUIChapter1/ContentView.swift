@@ -16,6 +16,7 @@ struct ContentView: View {
             Text("Placeholder3")
             Text("Placeholder4")
         }
+        .font(.largeTitle)
     }
 }
 
