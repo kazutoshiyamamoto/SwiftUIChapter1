@@ -12,15 +12,10 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
-                .font(.title)
-                .fontWeight(.thin)
-                .foregroundColor(Color.red)
-            Text("テストテストテストテスト\nテストテストテストテスト\nテストテストテストテストテスト")
-                .multilineTextAlignment(.trailing)
-                .frame(width: 300.0, height: 200.0, alignment: .bottomTrailing)
-                .border(Color.green, width: 5)
+            Text("Placeholder2")
+            Text("Placeholder3")
+            Text("Placeholder4")
         }
-        .foregroundColor(Color.blue)
     }
 }
 
