@@ -10,13 +10,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
-            Text("Placeholder2")
-            Text("Placeholder3")
-            Text("Placeholder4")
+        VStack {
+            VStack(alignment: .trailing) {
+                Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
+                    .font(.largeTitle)
+                    .fontWeight(.black)
+                Text("Placeholder2")
+                    .italic()
+            }
+            VStack(alignment: .trailing) {
+                Text("Placeholder3")
+                    .font(.largeTitle)
+                    .fontWeight(.medium)
+                Text("Placeholder4")
+                    .italic()
+            }
         }
-        .font(.largeTitle)
     }
 }
 
