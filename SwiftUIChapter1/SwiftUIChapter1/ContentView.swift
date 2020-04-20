@@ -18,6 +18,7 @@ struct ContentView: View {
                 Text("Placeholder2")
                     .italic()
             }
+            Spacer()
             VStack(alignment: .trailing) {
                 Text("Placeholder3")
                     .font(.largeTitle)
@@ -25,7 +26,6 @@ struct ContentView: View {
                 Text("Placeholder4")
                     .italic()
             }
-            Spacer()
         }
     }
 }
