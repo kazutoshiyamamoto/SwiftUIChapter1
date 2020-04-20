@@ -11,15 +11,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Spacer()
             VStack(alignment: .trailing) {
                 Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
                     .font(.largeTitle)
                     .fontWeight(.black)
                 Text("Placeholder2")
                     .italic()
+                    .offset(x: -10.0, y: 0)
             }
-            Spacer()
             VStack(alignment: .trailing) {
                 Text("Placeholder3")
                     .font(.largeTitle)
