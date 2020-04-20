@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            Spacer()
             VStack(alignment: .trailing) {
                 Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
                     .font(.largeTitle)
@@ -26,6 +27,7 @@ struct ContentView: View {
                 Text("Placeholder4")
                     .italic()
             }
+            Spacer()
         }
     }
 }
