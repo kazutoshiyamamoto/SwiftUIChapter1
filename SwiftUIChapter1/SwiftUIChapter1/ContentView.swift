@@ -26,7 +26,7 @@ struct ContentView: View {
                     .fontWeight(.medium)
                 Text("Placeholder4")
                     .italic()
-                .offset(x: -10.0, y: 0)
+                    .offset(x: -10.0, y: 0)
             }
             .padding(.top, 20.0)
             Spacer()
