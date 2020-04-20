@@ -19,6 +19,7 @@ struct ContentView: View {
                     .italic()
                     .offset(x: -10.0, y: 0)
             }
+            .padding(.top, 80.0)
             VStack(alignment: .trailing) {
                 Text("Placeholder3")
                     .font(.largeTitle)
